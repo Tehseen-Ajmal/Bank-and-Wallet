@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="xhtmlrenderer.core.renderer1" type="repository">
+    <properties maven-id="org.xhtmlrenderer:core-renderer:R8" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/core-renderer-R8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/itext-2.0.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/bcmail-jdk14-138.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/bcprov-jdk14-138.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
