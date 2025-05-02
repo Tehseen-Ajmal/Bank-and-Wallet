@@ -62,7 +62,7 @@ pip install selenium
 ```bash
 msedgedriver.exe
 ```
-Make sure you have the matching ChromeDriver (or geckodriver) for your browser.
+Make sure you have the matching Driver for your browser.
 
 ### 4. LESCO Bill Fetching Script
 
