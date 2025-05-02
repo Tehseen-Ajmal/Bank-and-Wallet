@@ -18,11 +18,9 @@ public class User_Background extends JFrame {
     private static JPanel user_backpanel;
     public static OnlineUsers global_online = new OnlineUsers();
     public static Accounts global_account = new Accounts();
-    //PK-9140-1156-1234-346
+    
     static Approvals_Request ac = new Approvals_Request();
     public static Complains glob_comp = new Complains();
-//    static String ac_n ="PK-9140-7474-1341-1346  , PK-9140-6638-4513-1346 46-11311-1984313-U
-//    static String password = "i2/woayjIr";  PK-9140-4643-1232-1347
     public static OnlineUsers auth_enter;
     BufferedImage img2 = ImageIO.read(new File(Const.basePath + "src\\resources\\icon\\back_blur.jpg"));
     Image img21 = img2.getScaledInstance(900,600,BufferedImage.SCALE_DEFAULT);
