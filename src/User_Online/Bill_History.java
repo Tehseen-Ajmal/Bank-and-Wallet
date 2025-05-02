@@ -12,7 +12,6 @@ public class Bill_History implements Serializable {
     private Double amount;
     public boolean isPaid;
 
-    // Constructor that takes referenceNo, billMonth, amount, and isPaid as arguments
     public Bill_History(String referenceNo, String billMonth, Double amount, boolean isPaid) {
         this.referenceNo = referenceNo;
         this.billMonth = billMonth;
@@ -79,7 +78,7 @@ public class Bill_History implements Serializable {
         fis.close();
     }
 
-    // Return the bill object by reference number
+    // Return the bill by reference number
     public Bill_History returnBill(String referenceNo) {
         for (Bill_History bill : billHistoryList) {
             if (bill.referenceNo.equals(referenceNo)) {
@@ -89,7 +88,6 @@ public class Bill_History implements Serializable {
         return null;
     }
 
-    // Getters
     public String getBillMonth() {
         return billMonth;
     }
