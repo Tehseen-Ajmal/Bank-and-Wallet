@@ -53,12 +53,15 @@ User:
 ```
 src/User_Online/User_Background.java
 ```
-### 3. Install Python Requirements for Bill Fetching
-
+### 3. Requirements for Bill Fetching
+1- selenium :
 ```bash
 pip install selenium
 ```
-
+2- Browser Driver :
+```bash
+msedgedriver.exe
+```
 Make sure you have the matching ChromeDriver (or geckodriver) for your browser.
 
 ### 4. LESCO Bill Fetching Script
